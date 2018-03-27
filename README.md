@@ -3,6 +3,7 @@ This is a pure Javascript, zero dependency site loader with dependency support. 
 
 Usage is pretty simple, here's an example:
 
+<pre>
 <html><head>
 <script src="scripts/wload.js"></script>
 </head>
@@ -19,3 +20,4 @@ ld_site.load_all(function(){console.log('app loaded');});
 </script>
 </body>
 </html>
+</pre>
