@@ -3,13 +3,13 @@ This is a pure Javascript, zero dependency site loader with dependency support. 
 
 Usage is pretty simple, here's an example:
 
-<pre><!--
-<html><head>
-<script src="scripts/wload.js"></script>
-</head>
-<body>
-<div id="app"></div>
-<script>
+<pre>
+&lthtml>&lthead>
+&ltscript src="scripts/wload.js">&lt/script>
+&lt/head>
+&ltbody>
+&ltdiv id="app">&lt/div>
+&ltscript>
 var ld_site = new wload;
 ld_site.src_seq([{"type": "js", "url": "scripts/layered_canvas.js"}, {"type": "js", "url": "scripts/carouseljs.js"}, {"type": "js", "url": "scripts/posts.js"}, {"type": "js", "url": "scripts/webthing_ui.js"}]);
 ld_site.src_file({"type": "css",  "id": "ldr_style",  "url": "the_site.css"});
@@ -17,8 +17,8 @@ ld_site.src_file({"type": "css",  "id": "cyanotype_font",  "url": "https://fontl
 ld_site.src_file({"type": "css",  "id": "feltpen_font",    "url": "https://fontlibrary.org/face/feltpen"});
 ld_site.src_file({"type": "css",  "id": "typewriter_font", "url": "https://fontlibrary.org/face/rufscript"});
 ld_site.load_all(function(){console.log('app loaded');});
-</script>
-</body>
-</html>
-</pre>
--->
+&lt/script>
+&lt/body>
+&lt/html>
+&lt/pre>
+
