@@ -1,7 +1,9 @@
 # wload
-This is a pure Javascript, zero dependency site loader with dependency support. It declares an object with methods you can call to do an orderly web site load and call a function when all dependencies are loaded.
+This is a small, pure Javascript, zero dependency site loader with very basic dependency support. It's 593 bytes gzipped.
 
-Usage is pretty simple, here's an example:
+It declares an object with methods you can call to do an orderly web site load and call a function when all dependencies are loaded.
+
+Usage is pretty simple, there's an example below. I use it on my web sites like www.webthinglabs.html for example.
 
 <pre>
 &lthtml>&lthead>
