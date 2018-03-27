@@ -5,7 +5,7 @@ Usage is pretty simple, here's an example:
 
 <pre>
 &lthtml>&lthead>
-&ltscript src="scripts/wload.js">&lt/script>
+&ltscript src="scripts/wload.min.js">&lt/script>
 &lt/head>
 &ltbody>
 &ltdiv id="app">&lt/div>
