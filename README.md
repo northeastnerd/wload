@@ -3,7 +3,7 @@ This is a pure Javascript, zero dependency site loader with dependency support. 
 
 Usage is pretty simple, here's an example:
 
-pre>
+<pre>
 &lthtml>&lthead>
 &ltscript src="scripts/wload.js">&lt/script>
 &lt/head>
