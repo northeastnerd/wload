@@ -32,3 +32,7 @@ ld_site.load_all(function(){console.log('app loaded');});
 &lt/pre>
 
 # Testing
+Verified on:
+* Edge 41.16299.248.0
+* Chrome 64.0.3282.186
+* Firefox 58.0.2
