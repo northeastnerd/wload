@@ -11,7 +11,9 @@ Obviously there are more complex dependency scenarios for giant sites like Yahoo
 
 I use it on my web sites like www.webthinglabs.html for example.
 
-That's it, enjoy. Here's an example of usage:
+That's it, enjoy. 
+# Example
+Here's an example of usage:
 <pre>
 &lthtml>&lthead>
 &ltscript src="scripts/wload.min.js">&lt/script>
@@ -29,7 +31,7 @@ ld_site.load_all(function(){console.log('app loaded');});
 &lt/script>
 &lt/body>
 &lt/html>
-&lt/pre>
+</pre>
 
 # Testing
 Verified on:
