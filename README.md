@@ -9,7 +9,7 @@ Files with no dependecies are registered with the src_file() method which accept
 
 Obviously there are more complex dependency scenarios for giant sites like Yahoo News, this isn't intended to handle servicing that kind of huge interdependent source tree site. For sites with 25 or so html, javascript and css files and just a few dependencies it works well.
 
-I use it on my web sites like www.webthinglabs.html for example.
+I use it on my web sites like www.webthinglabs.com for example.
 
 That's it, enjoy. 
 # Example
